@@ -1,0 +1,116 @@
+*{
+    margin: 10;
+    padding: 40;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.header{
+    background: #f7f8fa;
+    color: #b83f3f;
+    padding: 10px0;
+    text-align: center;
+}
+.header h1{
+    margin: 10px;
+    color: rgb(13, 127, 142);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+nav ul li{
+    margin: 15px;
+}
+nav ul li a{
+    color: #944951;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.main-container{
+    display: flex;
+    justify-content:space-between;
+    margin: 20px;
+}
+.left-frame, .center-frame, .right-frame{
+    width: 30%;
+    padding: 15px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,01);
+}
+.left-frame ul{
+    list-style: none;
+}
+.left-frame li{
+    margin: 10px 0;
+}
+.right-frame{
+    background-color: rgb(241, 238, 234);
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background: #2a7056;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+/* style for catalouge page */
+.catalouge-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.catalouge-table th, .catalouge-table td{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+    background: #f4f4f4;
+}
+.catalouge-table tr:nth-child(even){
+    background: #f9f9f9;
+}
+.image{
+    width: 100px;
+    height: 100px;
+}
+.form_container{
+  text-align: center;
+  color:black;
+  line-height:normal;
+  font-size:x-large;
+  border-radius: 20px;
+}
+.form_container input{
+  height: 40px;
+  width: 300px;
+}
+button{
+  color: white;
+  background-color:blue;
+  font-size: x-large;
+  width: 200px;
+  height: 40px;
+}
+.Signup_container{
+  text-align: center;
+  color:black;
+  line-height:normal;
+  font-size:x-large;
+  border-radius: 20px;
+  margin: 20px;
+ 
+}
+.Signup_container input{
+  height: 40px;
+  width: 300px;
+}
